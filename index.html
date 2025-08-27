@@ -16,7 +16,7 @@
     <header class=cabecera>
 
         <div class="container-logo">
-            <a class="logo" href="#principal">YEF</a>
+            <a class="logo" href="#contenido">Y.S.F</a>
         </div>
         <nav class="navegacion">
             <a href="#sobremi">Sobre mí</a>
@@ -27,9 +27,9 @@
 
     </header>
 
-    <main class="contenido">
+    <main class="contenido" id="contenido">
 
-        <section class="presentacion">
+        <section class="presentacion" id="presentacion">
 
             <div id="introduccion">
 
@@ -44,7 +44,7 @@
                 </p>
                 <br>
                 <div id="botones">
-                    <a class="btn-primario" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+                    <a class="btn-primario" href="https://github.com/" target="_blank">GitHub</a>
                     <a class="btn-secundario" href="https://www.uniamazonia.edu.co/" target="_blank"
                         rel="noopener">UDLA</a>
                 </div>
@@ -57,7 +57,7 @@
 
         </section>
 
-        <section class="sobremi">
+        <section class="sobremi" id="sobremi">
 
             <h2>Sobre mí</h2>
             <br>
@@ -76,7 +76,7 @@
 
         </section>
 
-        <section class="habilidades-proyectos">
+        <section class="habilidades-proyectos" id="habilidades">
 
             <h2>Habilidades</h2>
             <br>
@@ -84,12 +84,12 @@
                 <article class="tarjeta">
                     <h3>Front-End</h3>
                     <br>
-                    <p>HTML5, CSS3 (Flexbox, Grid), diseño responsivo y semántica.</p>
+                    <p>HTML5, CSS (Flexbox, Grid), diseño responsivo y semántica.</p>
                 </article>
                 <article class="tarjeta">
                     <h3>Back-End</h3>
                     <br>
-                    <p>Conceptos básicos con C# y Java. Consumo de APIs y arquitectura MVC (nociones).</p>
+                    <p>Conceptos básicos con C# y Java.</p>
                 </article>
                 <article class="tarjeta">
                     <h3>Bases de Datos</h3>
@@ -104,26 +104,20 @@
             </div>
 
             <br>
-            <h2 class="proyectos">Proyectos</h2>
+            <h2 class="proyectos" id="proyectos">Proyectos</h2>
             <br>
             <div class="tarjetas-grid-P">
                 <article class="tarjeta">
-                    <h3>Mi primera landing</h3>
-                    <p>Landing page estática con HTML y CSS, accesible y responsiva.</p>
+                    <h3>Gestión de páginas web</h3>
+                    <p>Almacenamiento de servicios en la nube con Azure.</p>
                     <br>
-                    <a class="enlace" href="#" aria-label="Ver demo de Mi primera landing">Demo</a>
-                </article>
-                <article class="tarjeta">
-                    <h3>Gestor de tareas (Java)</h3>
-                    <p>App de consola con listas, filtros y persistencia sencilla.</p>
-                    <br>
-                    <a class="enlace" href="#" aria-label="Ver código del Gestor de tareas en Java">Código</a>
+                    <a href="https://portal.azure.com/#browse/Microsoft.Web%2Fsites" target="_blank">App Services</a>
                 </article>
                 <article class="tarjeta">
                     <h3>Mini API (C#)</h3>
-                    <p>API básica con endpoints CRUD para practicar.</p>
+                    <p>API básica de escritorio para la práctica dportiva.</p>
                     <br>
-                    <a class="enlace" href="#" aria-label="Ver documentación de Mini API en C#">Docs</a>
+                    <a>Doc</a>
                 </article>
             </div>
 
@@ -136,11 +130,40 @@
             voluptas, recusandae iure commodi velit tempore quo excepturi enim? Recusandae iste assumenda omnis eos.</p>
     </div>
 
-    <footer>
+    <footer id="contacto">
+
         <div class="pie-pagina">
-            <p>© <span id="year"></span> Yefrey Sanjuan Feria · Universidad de la Amazonia</p>
-            <a class="top" href="#inicio" aria-label="Volver arriba">↑ Arriba</a>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>Calle 3C# 5-23</p>
+                <p>Florencia, Caquetá</p>
+                <p>Colombia</p>
+                <p> +57 313 879 5290</p>
+                <a href="mailto:ye.sanjuan@udla.edu.co">ye.sanjuan@udla.edu.co</a>
+            </div>
+
+            <div class="footer-section">
+                <h3>Redes Sociales</h3>
+                <a href="https://www.instagram.com/yefreysanjuan0806/">Instagram</a>
+                <a href="https://wa.me/573138795290">WhatsApp</a>
+                <a href="https://web.facebook.com/yefrey.sanjuan.894344">Facebook</a>
+                <a href="https://github.com/Yefrey0806/PaginaPersonal-Yefrey">GitHub</a>
+            </div>
+
+            <div class="footer-section">
+                <h3>Educación</h3>
+                <p>Universidad de la Amazonia</p>
+                <p>Ingeniería de Sistemas</p>
+                <p>7.° Semestre</p>
+                <p>Florencia, Caquetá</p>
+            </div>
+
+            <div class="footer-section">
+                <p>© <span>2025</span> Yefrey Sanjuan Feria · Universidad de la Amazonia</p>
+                <a href="#contenido">↑ Volver Arriba</a>
+            </div>
         </div>
+        
     </footer>
 
 </body>
