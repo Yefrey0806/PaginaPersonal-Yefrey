@@ -254,16 +254,54 @@ li {
   padding: 10px;
 }
 
-.video {
-  background-color: rgb(78, 21, 59);
-  width: 100%;
-  height: calc(20% - 95px);
-}
-
-.video {
-  background-color: #cc4e4e;
+/* Estilos para la sección de video */
+.video-section {
+  position: relative;
   width: 100%;
   height: 50vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 56.25vw; /* 16:9 aspect ratio */
+  min-height: 100vh;
+  min-width: 177.77vh; /* 16:9 aspect ratio */
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  pointer-events: none; /* Evita interacción con el iframe */
+}
+
+.video-content {
+  position: relative;
+  z-index: 3;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  max-width: 800px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+}
+
+.video-content h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.video-content p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #f0f0f0;
 }
 
 .pie-pagina {
