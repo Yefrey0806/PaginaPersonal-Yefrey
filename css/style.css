@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(219, 219, 219);
+}
+
+body {
+  background: radial-gradient(
+    circle,
+    rgb(10, 7, 80) 0%,
+    rgba(26, 92, 90, 1) 100%,
+    rgb(18, 89, 104) 100%
+  );
+  background-color: rgb(253, 119, 9);
+  width: 100%;
+  height: 100%;
+}
+
+.cabecera {
+  background: linear-gradient(
+    90deg,
+    rgba(45, 91, 138, 1) 0%,
+    rgba(12, 28, 56, 1) 0%,
+    rgba(15, 15, 219, 1) 0%,
+    rgba(35, 37, 43, 1) 34%,
+    rgba(13, 81, 148, 1) 100%
+  );
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+.container-logo {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: transparent;
+  padding-left: 150px;
+}
+
+.navegacion {
+  width: calc(100% - 20%);
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: transparent;
+  padding-left: 400px;
+  padding-right: 50px;
+}
+
+.logo {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: bold;
+  background-color: transparent;
+  font-family: "Segoe UI", Tahoma;
+}
+
+.contenido {
+  background-color: transparent;
+  width: calc(100% - 200px);
+  height: 300vh;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.presentacion {
+  background-color: transparent;
+  width: 100%;
+  height: 25%;
+  display: flex;
+}
+
+#introduccion {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  background-color: transparent;
+}
+
+#titulo-hello {
+  background-color: transparent;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #0d0d1a;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.resaltado {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #cc4e4e;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.subtitulo {
+  background-color: transparent;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.1rem;
+  color: #c9bbbb;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(233, 233, 233);
+  font-size: 20px;
+  font-weight: bold;
+  background-color: transparent;
+  font-family: "Times New Roman";
+}
+
+span {
+  background-color: transparent;
+}
+
+strong {
+  background-color: transparent;
+}
+
+#botones {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  justify-content: start;
+  background-color: transparent;
+}
+
+.btn-primario {
+  background: linear-gradient(
+    2deg,
+    rgba(224, 102, 255, 1) 0%,
+    rgba(120, 102, 222, 1) 55%,
+    rgba(52, 52, 102, 1) 89%,
+    rgba(42, 25, 130, 1) 100%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  border: 1px solid;
+}
+
+.btn-secundario {
+  background: transparent;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border: 1px solid;
+}
+
+.avatar {
+  background-color: transparent;
+  width: 50%;
+  height: calc(100% - 145px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 145px;
+}
+
+img {
+  background-color: transparent;
+  width: 250px;
+  height: auto;
+  border-radius: 150px;
+}
+
+.sobremi {
+  background-color: rgb(42, 165, 52);
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.habilidades {
+  background-color: rgb(158, 57, 136);
+  width: 100%;
+  height: 25%;
+}
+
+.proyectos {
+  background-color: rgb(78, 21, 59);
+  width: 100%;
+  height: 25%;
+}
+
+footer {
+  background: linear-gradient(
+    2deg,
+    rgba(56, 56, 59, 1) 0%,
+    rgba(63, 78, 98, 1) 38%,
+    rgba(68, 97, 145, 1) 64%,
+    rgba(63, 79, 99, 1) 92%
+  );
+  width: 100%;
+  height: 150px;
+}
